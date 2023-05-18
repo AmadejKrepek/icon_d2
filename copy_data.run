@@ -8,7 +8,7 @@ echo "icon-d2: Starting processing of icon model data - `date`"
 echo "-----------------------------------------------------------------------------------------"
 
 # Folder to be used to download and process data
-export MODEL_DATA_FOLDER="/home/ekman/ssd/guido/icon-d2/"
+export MODEL_DATA_FOLDER="/root/projects/Weather/icon_d2_data"
 export HOME_FOLDER=$(pwd)
 export N_CONCUR_PROCESSES=8
 export NCFTP_BOOKMARK="mid"
